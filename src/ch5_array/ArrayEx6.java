@@ -19,8 +19,8 @@ public class ArrayEx6 {
 				
 		}
 		
-		System.out.println("Max : " +max);
-		System.out.println("Min : " +min);
+		System.out.println("Max값은 : " +max);
+		System.out.println("Min값은 : " +min);
 		
 	}
 }
