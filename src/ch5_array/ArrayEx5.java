@@ -23,7 +23,7 @@ public class ArrayEx5 {
 int sum = 0; 
 float avg = 0f; 
 
-int[] score = {100, 100, 23, 39, 80, 44, 95, 85};
+int[] score = {100, 88, 100, 100, 90};
 
 for(int i=0; i<score.length; i++) {
 //	sum = sum+score[i];
