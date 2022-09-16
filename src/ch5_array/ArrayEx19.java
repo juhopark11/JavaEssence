@@ -14,12 +14,12 @@ class ArrayEx19 {
 		int engTotal = 0;
 		int mathTotal = 0;
 
-	    System.out.println("번호 국어 영어 수학 총점 평균");
+	    System.out.println("번호 국어 영어 수학 총점 평균 ");
 	    System.out.println("=============================");
 
 		for(int i=0;i < score.length;i++) {
-			int   sum = 0;       // 개인별 총점 
-			float avg = 0.0f;    // 개인별 평균
+			int   sum = 0;       // 개인별 총점
+			float avg = 0.0f;   // 개인별 평균
 
 			korTotal  += score[i][0];
 			engTotal  += score[i][1];
@@ -39,3 +39,5 @@ class ArrayEx19 {
 	    System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }
+
+
