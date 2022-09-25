@@ -28,4 +28,3 @@ public class ArrayEx7 {
 	} 
 
 }
-
