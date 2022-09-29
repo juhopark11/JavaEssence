@@ -30,7 +30,7 @@ public class ArrayEx10 {
 					int tmp = numArr[j+1];
 						numArr[j] = tmp; 
 						numArr[j+1] = tmp;
-						changed = true; 
+						changed = true;   
 				}
 			}
 		
