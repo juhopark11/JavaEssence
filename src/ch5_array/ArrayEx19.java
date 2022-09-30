@@ -13,8 +13,8 @@ class ArrayEx19 {
 		int korTotal = 0;
 		int engTotal = 0;
 		int mathTotal = 0;
-
-	    System.out.println("번호 국어 영어 수학 총점 평균 ");
+		
+	    System.out.println("번호  국어  영어  수학  총점  평균 ");
 	    System.out.println("=============================");
 
 		for(int i=0;i < score.length;i++) {

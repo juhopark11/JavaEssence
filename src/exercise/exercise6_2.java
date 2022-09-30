@@ -17,9 +17,11 @@ public class exercise6_2 {
 		}
 }
 		class SutdaCard {
-
+					
+			int num; 
+			boolean isKwang;
+			
+	
+			
 		}
 
-		
-		
-	
