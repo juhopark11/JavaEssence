@@ -1,6 +1,6 @@
 
 
-package ch6_oop;
+package ch06_oop;
 
 class Tv { 
 	

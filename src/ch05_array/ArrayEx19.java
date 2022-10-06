@@ -1,4 +1,4 @@
-package ch5_array;
+package ch05_array;
 
 class ArrayEx19 {
 	public static void main(String[] args) {
