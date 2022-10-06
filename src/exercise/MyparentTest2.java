@@ -1,5 +1,5 @@
 package exercise;
-import ch7_oop.MyParent;
+import ch07_oop.MyParent;
 
 class MyChild extends MyParent{
 	

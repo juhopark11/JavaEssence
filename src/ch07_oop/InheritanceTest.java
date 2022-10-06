@@ -1,4 +1,4 @@
-package ch7_oop;
+package ch07_oop;
 
 class MyPoint{
 	int x; 

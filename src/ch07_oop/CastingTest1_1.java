@@ -1,16 +1,15 @@
-package ch7_oop;
+package ch07_oop;
 
-public class CastingTest1 {
+public class CastingTest1_1 {
 	public static void main(String args[]) {
-		Car car = null;
+		Car car = null; 
+//		FireEngine fe = null; //실제 인스턴스가 무엇인지가 중요. 안그럼 Exception 발생. 
 		FireEngine fe = new FireEngine();
-		FireEngine fe2 = null;
-
-		fe.water();
-		car = fe;    // car =(Car)fe;에서 형변환이 생략된 형태다.
-//		car.water();	 // 이 타입으로는 water를 쓸 수 없음. car는 4개밖에 없으니깐.
-		fe2 = (FireEngine)car; // 자손타입 ← 조상타입
-		fe2.water();
+		
+		FireEngine fe2 = (FireEngine)car; // 조상-> 자손타입으로 형변환
+		Car car2 = (Car)fe2;				 // 자손-> 조상으로 형변환
+//		car2.drive(); //NullPointerException 발생. 
+		
 	}
 }
 
