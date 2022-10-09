@@ -2,20 +2,20 @@ package ch05_array;
 
 class ArrayEx19 {
 	public static void main(String[] args) {
-		 int[][] score = {
-							{ 100, 100, 100}
-							, { 20, 20, 20}
-							, { 30, 30, 30}
-							, { 40, 40, 40}
-							, { 50, 50, 50}
-						};
+		int[][] score = {
+				  {100, 100, 100}
+				, { 20, 20, 20}
+				, { 30, 30, 30}
+				, { 40, 40, 40}
+				, { 50, 50, 50}
+		};
 		// 과목별 총점
 		int korTotal = 0;
 		int engTotal = 0;
 		int mathTotal = 0;
-		
-	    System.out.println("번호  국어  영어  수학  총점  평균 ");
-	    System.out.println("=============================");
+
+		System.out.println("번호  국어  영어  수학  총점  평균 ");
+		System.out.println("=============================");
 
 		for(int i=0;i < score.length;i++) {
 			int   sum = 0;       // 개인별 총점
@@ -35,8 +35,8 @@ class ArrayEx19 {
 			System.out.printf("%5d %5.1f%n", sum, avg);
 		}
 
-	    System.out.println("=============================");
-	    System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
+		System.out.println("=============================");
+		System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }
 

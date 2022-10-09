@@ -37,7 +37,7 @@ public class ArrayEx10 {
 			if(!changed) break; // 만약 자리바꿈이 없으면 중단한다.
 		}
 		
-		for(int k=0; k<nu                                                                                                  mArr.length; k++) {
+		for(int k=0; k<numArr.length; k++) {
 			System.out.println(numArr[k]);
 		}
 		

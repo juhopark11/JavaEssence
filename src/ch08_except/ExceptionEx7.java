@@ -17,7 +17,7 @@ public class ExceptionEx7 {
 			System.out.println("getMessage : "+ae.getMessage());
 		} 
 		catch(Exception e) {
-			System.ou  t.println("Exception"+e.getMessage()); //exception의 최고조상. 
+			System.out.println("Exception"+e.getMessage()); //exception의 최고조상. 
 		}
 		System.out.println(6);
 	}

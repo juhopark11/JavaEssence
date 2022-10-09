@@ -24,11 +24,11 @@ public class ArrayEx18 {
 		 // 향상된 for문을 활용해보자. 
 		 int sum =0; 
 		 
-		 for(타입변수명 : 배열또는 컬렉션) {
-			 // 반복할 문장.
-		 }
+//		 for(타입변수명 : 배열또는 컬렉션) {
+//			 // 반복할 문장.
+//		 }
 		 
-		 for()
+
 //		int sum = 0;
 //
 //		for(int i=0;i < score.length;i++) {
