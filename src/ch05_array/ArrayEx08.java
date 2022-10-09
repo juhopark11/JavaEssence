@@ -1,6 +1,6 @@
 package ch05_array;
 
-public class ArrayEx8 {
+public class ArrayEx08 {
 
 	public static void main(String[] args) {
 	

@@ -1,6 +1,6 @@
 package ch05_array;
 
-public class ArrayEx7 {
+public class ArrayEx07 {
 
 	public static void main(String[] args) {
 		int[] numArr = new int[45]; // 45개의 정수값을 저장하기 위한 배열 생성.

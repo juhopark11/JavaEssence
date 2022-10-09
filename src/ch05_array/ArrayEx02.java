@@ -2,7 +2,7 @@ package ch05_array;
 
 import java.util.*;  // Arrays.toString()을 사용하기 위해 추가
 
-class ArrayEx2 {
+class ArrayEx02 {
 	public static void main(String[] args) {
 		int[] iArr1 = new int[10];
 		int[] iArr2 = new int[10];

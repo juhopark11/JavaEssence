@@ -1,6 +1,6 @@
 package ch05_array;
 
-public class ArrayEx5 {
+public class ArrayEx05 {
 
 	public static void main(String[] args) {
 		int sum = 0; 
