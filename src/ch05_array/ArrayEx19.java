@@ -39,5 +39,3 @@ class ArrayEx19 {
 		System.out.printf("총점:%3d %4d %4d%n", korTotal, engTotal, mathTotal);
 	}
 }
-
-

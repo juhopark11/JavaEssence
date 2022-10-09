@@ -11,7 +11,6 @@ public class ArrayEx07 {
 //			System.out.print(" " + numArr[i]);  
 			}
 		
-		int temp = 0; // 두 값을 바꾸는데 사용할 임시변수 
 		int n = 0; 	 // 임의의 값을 얻어서 저장할 변수 
 		
 		for (int i=0; i < numArr.length; i++ ) { // 45번 섞는다. 
