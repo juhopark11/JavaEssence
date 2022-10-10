@@ -23,5 +23,4 @@ public class ReturnTest {
 	void add(int x, int y, int[] result) {
 		result[0] = x+y;
 	}
-
 }
