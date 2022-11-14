@@ -17,7 +17,7 @@ public class ReturnTest {
 	}
 	
 	int add(int x, int y) {
-		return x+y; 
+		return x+y ;
 	}
 	
 	void add(int x, int y, int[] result) {
