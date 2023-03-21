@@ -5,21 +5,16 @@ class MyPoint{
 	int y; 
 }
 
-//class Circle extends MyPoint{ //상속
-//	int r; 
-//}
+//class Circle extends MyPoint{ int r; }
 
-class Circle {
-	
+class Circle2 {
 	MyPoint p = new MyPoint(); //참조변수의 초기화
 	int r;
 }
 
 public class InheritanceTest {
-	
 	public static void main(String[] args) {
-		
-		Circle c = new Circle();
+		Circle2 c = new Circle2();
 		c.p.x=1;
 		c.p.y=2;
 		c.r=3;
@@ -28,4 +23,4 @@ public class InheritanceTest {
 		System.out.println("c.y="+c.p.y);
 		System.out.println("c.r="+c.r);	
 	}
-}
+} 
