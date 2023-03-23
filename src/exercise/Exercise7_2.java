@@ -42,7 +42,7 @@ class SutdaDeck {
 		return new SutdaCard3();		
 	}
 	
-	
+	 
 	
 } // SutdaDeck
 
