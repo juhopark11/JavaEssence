@@ -43,7 +43,6 @@ class SutdaDeck {
 	}
 	
 	 
-	
 } // SutdaDeck
 
 class SutdaCard3 {
