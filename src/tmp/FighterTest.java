@@ -13,7 +13,7 @@ interface Fightable{
 
 class Fighter extends Unit2 implements Fightable{
 	 
-	public void move(int x, int y) {
+	public void move(int x, int y) { // 오버라이딩 시 조상보다 좁으면 안됨. 
 		System.out.println("move to : "+x+","+y);
 	}
 	public void attack(Fightable f) {
