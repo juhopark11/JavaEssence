@@ -34,12 +34,15 @@ class SutdaDeck {
 		}
 	}
 	
-	SutdaCard3 pick(int index) {
-		return new  SutdaCard3();
+	SutdaCard3 pick(int index) { // 진짜 index가 아니라, 단지 index라는 명칭의 변수임. 범위 내인지 확인.
+		if(index < 0 || index >= CARD_NUM) {
+			return null ; }
+		else {return cards[index];}
 	}
 	
 	SutdaCard3 pick() {
-		return new SutdaCard3();		
+		int i =  (int)(Math.random()*cards.length);
+		return cards[i];
 	}
 	
 	 
@@ -68,8 +71,8 @@ class Exercise7_2 {
 	public static void main(String args[]) {
 		SutdaDeck deck = new SutdaDeck();
 
-		System.out.println(deck.pick(0));
-		System.out.println(deck.pick());
+		System.out.println("deck.pick(0) : "+deck.pick(0));
+		System.out.println("deck.pick() : " +deck.pick());
 		deck.shuffle();
 
 		for (int i = 0; i < deck.cards.length; i++)
