@@ -35,7 +35,7 @@ class SutdaDeck {
 	}
 	
 	SutdaCard3 pick(int index) {
-		return new SutdaCard3();
+		return new  SutdaCard3();
 	}
 	
 	SutdaCard3 pick() {
